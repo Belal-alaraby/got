@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(../imgs/5.jpg);
+    background-size:cover;
+    background-attachment:fixed ;
+    background-position: 50% 60%;
+}
+
+
+.div1
+{
+    display: flex;
+}
+
+
+.div1 .icon
+{
+    position: relative;
+    left: 24%;
+}
+
+
+.div1 .links ul
+{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 31%;
+    top: 26%;
+}
+
+
+.div1 .links ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    margin-left: 150px;
+    text-shadow:1px 1px 5px rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+
+.div1 .links ul li a:hover
+{
+    color: antiquewhite;
+    text-shadow:1px 1px 5px rgb(0, 0, 0);
+    transform: scale(4);
+    font-size: 35px;
+}
+
+
+.hr
+{
+    margin: -30px 7px ;
+    padding-left: 350px;
+}
+
+
+.icon2
+{
+    margin:-75px 0px 0px 665px;
+}
+
+
+.p1
+{
+    margin: -110px 26px 1px 399px ;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    transition: 0.4s;
+}
+
+
+.p1:hover
+{
+    color: antiquewhite;
+    text-shadow:1px 1px 5px rgb(0, 0, 0);
+}
+
+
+.p2
+{
+    margin: 74px 26px 1px 399px ;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    transition: 0.4s;
+}
+
+
+.p2:hover
+{
+    color: antiquewhite;
+    text-shadow:1px 1px 5px rgb(0, 0, 0);
+}
